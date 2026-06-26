@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="minimalistGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b88730" />
+      <stop offset="50%" stop-color="#dcb05b" />
+      <stop offset="100%" stop-color="#a37626" />
+    </linearGradient>
+  </defs>
+
+  <g fill="url(#minimalistGold)">
+    
+    <g id="Monograma">
+      <path d="M 346,85 L 346,158 L 356,158 L 356,123 L 382,123 C 405,123 420,111 420,85 C 420,60 405,48 382,48 L 346,48 L 346,85 Z M 356,58 L 380,58 C 398,58 409,65 409,85 C 409,105 398,113 380,113 L 356,113 L 356,58 Z" />
+      
+      <path d="M 484,48 C 448,48 426,74 426,103 C 426,132 448,158 484,158 C 516,158 536,135 536,106 L 482,106 L 482,116 L 525,116 C 523,133 508,148 484,148 C 455,148 437,128 437,103 C 437,78 455,58 484,58 C 508,58 523,71 526,89 L 536,87 C 532,65 513,48 484,48 Z" />
+    </g>
+
+    <text x="400" y="215" 
+          font-family="'Inter', 'Montserrat', 'Arial', sans-serif" 
+          font-size="38" 
+          font-weight="400" 
+          text-anchor="middle" 
+          letter-spacing="16">ESTUDIO JURIDICO</text>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="logoGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b88730" />
+      <stop offset="50%" stop-color="#dcb05b" />
+      <stop offset="100%" stop-color="#a37626" />
+    </linearGradient>
+  </defs>
+  <g>
+    <path d="M 170,240 L 25,240 L 25,15 L 775,15 L 775,240 L 630,240" fill="none" stroke="url(#logoGold)" stroke-width="4" stroke-linecap="square" />
+    <g fill="url(#logoGold)">
+      <path d="M 326,105 L 326,178 L 336,178 L 336,143 L 362,143 C 385,143 400,131 400,105 C 400,80 385,68 362,68 L 326,68 L 326,105 Z M 336,78 L 360,78 C 378,78 389,85 389,105 C 389,125 378,133 360,133 L 336,133 L 336,78 Z" />
+      <path d="M 464,68 C 428,68 406,94 406,123 C 406,152 428,178 464,178 C 496,178 516,155 516,126 L 462,126 L 462,136 L 505,136 C 503,153 488,168 464,168 C 435,168 417,148 417,123 C 417,98 435,78 464,78 C 488,78 503,91 506,109 L 516,107 C 512,85 493,68 464,68 Z" />
+    </g>
+    <text x="400" y="252" font-family="'Inter', 'Montserrat', 'Arial', sans-serif" font-size="39" font-weight="400" fill="url(#logoGold)" text-anchor="middle" letter-spacing="15">ESTUDIO JURIDICO</text>
+  </g>
+</svg>

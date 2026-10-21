@@ -1,0 +1,17 @@
+/* Firma "Diseño y desarrollo · Nexus.AG" — https://nexus-ag.vercel.app/ */
+.nexus-firma { display: flex; justify-content: center; padding: 14px 0 0; }
+.nexus-credit { display: inline-flex; align-items: center; gap: 10px; padding: 8px 16px 8px 12px; border-radius: 12px; border: 1px solid transparent; color: #fff !important; text-decoration: none !important; transition: background .25s, border-color .25s; }
+.nexus-credit:hover { border-color: #D4B88266; background: #D4B8821a; }
+.nexus-mark { width: 24px; height: 24px; color: #D4B882; flex: none; overflow: visible; }
+.nexus-txt { display: flex; flex-direction: column; line-height: 1.15; text-align: left; }
+.nexus-txt small { font-size: 10px; letter-spacing: .16em; text-transform: uppercase; opacity: .65; }
+.nexus-txt b { font-size: 15px; font-weight: 600; letter-spacing: .04em; color: #fff; }
+.nexus-txt em { font-style: normal; color: #D4B882; }
+/* movimiento: los nodos laten en secuencia y la señal recorre el triángulo */
+.nexus-mark .n { transform-box: fill-box; transform-origin: center; animation: nexus-pulso 2.4s ease-in-out infinite; }
+.nexus-mark .n2 { animation-delay: .8s; } .nexus-mark .n3 { animation-delay: 1.6s; }
+.nexus-mark .flujo { stroke-dasharray: 4 3; animation: nexus-flujo 2.4s linear infinite; }
+@keyframes nexus-pulso { 0%, 60%, 100% { transform: scale(1); opacity: .85; } 25% { transform: scale(1.55); opacity: 1; } }
+@keyframes nexus-flujo { to { stroke-dashoffset: -14; } }
+@media (prefers-reduced-motion: reduce) { .nexus-mark .n, .nexus-mark .flujo { animation: none; } }
+.footer-bottom + .nexus-firma { padding-top: 18px; }
